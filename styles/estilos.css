@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Explora&family=Sofia+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Space+Grotesk:wght@300&display=swap");
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  background-color: #99a08e;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* general */
+body {
+  background-image: url(../img/imagenfondo.webp);
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* titulos y subtitulos */
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  background-color: #99a08e;
+}
+
+h2 {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 30px;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 0px;
+}
+
+.navegacion {
+  --bs-bg-opacity: 0;
+}
+.navegacion .nav1 {
+  margin: 0px;
+  background-color: #F3B3A6;
+  width: 100%;
+}
+
+#botonArriba {
+  text-align: right;
+}
+
+footer {
+  text-align: left;
+  padding: 30px;
+  background-color: #F3B3A6;
+  margin-bottom: 0px;
+  margin-top: 2em;
+}
+
+.tituloPrincipal {
+  margin-top: 10px;
+  border-top: 1cm;
+  border-bottom: 1cm;
+  border-right: 1cm;
+  border-left: 1cm;
+  border-style: none;
+  font-family: "Explora", cursive;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subI {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+}
+
+.II {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 300px;
+}
+
+/* quien soy */
+#pQS {
+  font-family: "Sofia Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  background-color: #f3d7d2;
+  margin-bottom: 10xp;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgQS {
+  width: 500px;
+  margin: 10px;
+  justify-content: center;
+}
+
+/* galeria */
+.gdI {
+  text-align: center;
+  border: solid 2px #99a08e;
+  background-color: #99a08e;
+}
+
+.tImagen {
+  font-family: "Space Grotesk", sans-serif;
+  border: solid 2px #99a08e;
+  background-color: #99a08e;
+}
+
+.imagenes {
+  margin: 5px;
+  width: 45%;
+}
+
+/* servicios */
+.contactame {
+  background-color: #99a08e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact {
+  color: azure;
+}
+
+.asesorias {
+  width: 50%;
+  margin: 10px;
+}
+
+/* Contacto */
+#form {
+  border: solid 3px #99a08e;
+  margin: 10px;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  background-color: #f3d7d2;
+}
+
+.tituloForm {
+  font-size: x-large;
+}
+
+.formulario {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+}
+
+/* responsive a mobile */
+@media screen and (max-width: 570px) {
+  /* general */
+  h1 {
+    font-size: 30px;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  /* quien soy */
+  #pQS {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    width: 90%;
+    font-size: 20px;
+  }
+  .imgQS {
+    width: 80%;
+    height: 200px;
+    overflow-y: hidden;
+  }
+  /* servicios */
+  .asesorias {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

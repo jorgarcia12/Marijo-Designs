@@ -1,0 +1,21 @@
+/* quien soy */
+
+#pQS{
+    font-family: 'Sofia Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px; 
+    background-color: #f3d7d2;
+    margin-bottom:  10xp;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imgQS{
+    width: 500px;
+    margin: 10px;
+    justify-content: center;
+}

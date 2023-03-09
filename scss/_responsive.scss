@@ -1,0 +1,34 @@
+/* responsive a mobile */
+@media screen and (max-width: 570px){ 
+    /* general */
+    
+    h1{
+        font-size: 30px;
+    }
+    body{    
+        width:100%;
+        overflow-x: hidden;
+    }
+
+    /* quien soy */
+    
+    #pQS{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        width: 90%;
+        font-size: 20px;
+
+    }
+    .imgQS{
+        width: 80%;
+        height: 200px;
+        overflow-y: hidden;
+    }
+
+    /* servicios */
+    .asesorias{
+        width: 80%;
+    }
+
+}

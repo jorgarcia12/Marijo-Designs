@@ -1,0 +1,27 @@
+.tituloPrincipal{
+    margin-top: 10px;
+    border-top: 1cm;
+    border-bottom: 1cm;
+    border-right: 1cm;
+    border-left: 1cm;
+    border-style: none;
+    font-family: 'Explora', cursive;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+.subI{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+
+.II{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: stretch;
+width: 300px;
+}
+
+
+
