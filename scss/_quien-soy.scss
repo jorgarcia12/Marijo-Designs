@@ -1,4 +1,11 @@
 /* quien soy */
+.contenedorTexto{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
 
 #pQS{
     font-family: 'Sofia Sans', sans-serif;
@@ -12,6 +19,11 @@
     margin-bottom:  10xp;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.contenedorImg{
+    display: flex;
+    justify-content: center;
 }
 
 .imgQS{

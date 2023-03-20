@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Explora&family=Sofia+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Space+Grotesk:wght@300&display=swap");
-h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: "Sofia Sans", sans-serif;
-  font-size: 60px;
-  text-align: center;
-  background-color: #99a08e;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -29,6 +20,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   background-color: #99a08e;
+  text-shadow: 10px 5px 7px gray;
 }
 
 h2 {
@@ -36,6 +28,7 @@ h2 {
   font-size: 40px;
   margin-bottom: 10px;
   margin-top: 10px;
+  text-shadow: 10px 5px 7px gray;
 }
 
 h3 {
@@ -55,6 +48,9 @@ h3 {
   margin: 0px;
   background-color: #F3B3A6;
   width: 100%;
+}
+.navegacion .linkNav {
+  display: flex;
 }
 
 #botonArriba {
@@ -80,22 +76,36 @@ footer {
   font-size: 120px;
   text-align: center;
   font-weight: bold;
+  text-shadow: 10px 5px 7px gray;
 }
 
 .subI {
+  display: flex;
+  justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 50px;
+  text-shadow: 10px 5px 7px gray;
+}
+
+.tarjetasInicio {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
 }
 
 .II {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: stretch;
+  margin: 10px;
   width: 300px;
 }
 
 /* quien soy */
+.contenedorTexto {
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  text-align: center;
+}
+
 #pQS {
   font-family: "Sofia Sans", sans-serif;
   display: flex;
@@ -108,6 +118,11 @@ footer {
   margin-bottom: 10xp;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.contenedorImg {
+  display: flex;
+  justify-content: center;
 }
 
 .imgQS {
@@ -173,29 +188,72 @@ footer {
 /* responsive a mobile */
 @media screen and (max-width: 570px) {
   /* general */
+  * {
+    padding: 0;
+    margin: 0;
+  }
   h1 {
     font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
   }
   body {
     width: 100%;
     overflow-x: hidden;
   }
+  .nav1 {
+    margin: 0;
+  }
+  /* Inicio */
+  .tituloPrincipal {
+    font-size: 100px;
+  }
+  .subI {
+    display: flex;
+    text-align: center;
+  }
+  .tarjetasInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .II {
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   /* quien soy */
   #pQS {
     display: flex;
     flex-wrap: wrap;
-    overflow-x: hidden;
-    width: 90%;
+    width: 80%;
     font-size: 20px;
+    justify-content: center;
   }
   .imgQS {
     width: 80%;
-    height: 200px;
     overflow-y: hidden;
+  }
+  .contenedorImg {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedorTexto {
+    display: flex;
+    justify-content: center;
   }
   /* servicios */
   .asesorias {
     width: 80%;
+  }
+  /* galeria */
+  .tImagen {
+    display: flex;
+    justify-content: center;
   }
 }
 
