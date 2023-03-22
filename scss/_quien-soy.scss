@@ -1,33 +1,32 @@
 /* quien soy */
-.contenedorTexto{
+.contenedorTexto {
     display: flex;
     align-content: center;
     margin: 10px;
     text-align: center;
+
+    #pQS {
+        font-family: 'Sofia Sans', sans-serif;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 20px;
+        background-color: #f3d7d2;
+        margin-bottom: 10xp;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
-
-#pQS{
-    font-family: 'Sofia Sans', sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 20px; 
-    background-color: #f3d7d2;
-    margin-bottom:  10xp;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.contenedorImg{
+.contenedorImg {
     display: flex;
     justify-content: center;
-}
 
-.imgQS{
-    width: 500px;
-    margin: 10px;
-    justify-content: center;
+    .imgQS {
+        width: 500px;
+        margin: 10px;
+        justify-content: center;
+    }
 }

@@ -49,12 +49,8 @@ h3 {
   background-color: #F3B3A6;
   width: 100%;
 }
-.navegacion .linkNav {
+.navegacion .nav1 .linkNav {
   display: flex;
-}
-
-#botonArriba {
-  text-align: right;
 }
 
 footer {
@@ -63,6 +59,9 @@ footer {
   background-color: #F3B3A6;
   margin-bottom: 0px;
   margin-top: 2em;
+}
+footer #botonArriba {
+  text-align: right;
 }
 
 .tituloPrincipal {
@@ -92,8 +91,7 @@ footer {
   flex-direction: row;
   margin: 15px;
 }
-
-.II {
+.tarjetasInicio .II {
   margin: 10px;
   width: 300px;
 }
@@ -105,8 +103,7 @@ footer {
   margin: 10px;
   text-align: center;
 }
-
-#pQS {
+.contenedorTexto #pQS {
   font-family: "Sofia Sans", sans-serif;
   display: flex;
   flex-direction: row;
@@ -124,8 +121,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-.imgQS {
+.contenedorImg .imgQS {
   width: 500px;
   margin: 10px;
   justify-content: center;
@@ -143,8 +139,7 @@ footer {
   border: solid 2px #99a08e;
   background-color: #99a08e;
 }
-
-.imagenes {
+.tImagen .imagenes {
   margin: 5px;
   width: 45%;
 }
@@ -156,14 +151,8 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
-
-.contact {
+.contactame .contact {
   color: azure;
-}
-
-.asesorias {
-  width: 50%;
-  margin: 10px;
 }
 
 /* Contacto */
@@ -175,12 +164,10 @@ footer {
   font-size: large;
   background-color: #f3d7d2;
 }
-
-.tituloForm {
+#form .tituloForm {
   font-size: x-large;
 }
-
-.formulario {
+#form .tituloForm .formulario {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 5px;
 }
@@ -192,6 +179,10 @@ footer {
     padding: 0;
     margin: 0;
   }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 30px;
   }
@@ -200,13 +191,6 @@ footer {
   }
   h3 {
     font-size: 15px;
-  }
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .nav1 {
-    margin: 0;
   }
   /* Inicio */
   .tituloPrincipal {
@@ -221,35 +205,32 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .II {
+  .tarjetasInicio .II {
     width: 80%;
     margin-left: 0px;
     margin-right: 0px;
   }
   /* quien soy */
-  #pQS {
+  .contenedorImg {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedorImg .imgQS {
+    width: 80%;
+    overflow-y: hidden;
+  }
+  .contenedorTexto {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedorTexto #pQS {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     font-size: 20px;
     justify-content: center;
   }
-  .imgQS {
-    width: 80%;
-    overflow-y: hidden;
-  }
-  .contenedorImg {
-    display: flex;
-    justify-content: center;
-  }
-  .contenedorTexto {
-    display: flex;
-    justify-content: center;
-  }
   /* servicios */
-  .asesorias {
-    width: 80%;
-  }
   /* galeria */
   .tImagen {
     display: flex;

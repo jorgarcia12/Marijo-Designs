@@ -1,4 +1,4 @@
-.tituloPrincipal{
+.tituloPrincipal {
     margin-top: 10px;
     border-top: 1cm;
     border-bottom: 1cm;
@@ -11,7 +11,8 @@
     font-weight: bold;
     text-shadow: 10px 5px 7px gray;
 }
-.subI{
+
+.subI {
     display: flex;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,15 +20,13 @@
     text-shadow: 10px 5px 7px gray;
 }
 
-.tarjetasInicio{
+.tarjetasInicio {
     display: flex;
     flex-direction: row;
     margin: 15px;
+
+    .II {
+        margin: 10px;
+        width: 300px;
+    }
 }
-
-.II{
-    margin: 10px;
-    width: 300px;
-}
-
-

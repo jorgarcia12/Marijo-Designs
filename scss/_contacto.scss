@@ -1,18 +1,20 @@
 /* Contacto */
-#form{
-    border:solid 3px #99a08e;
+#form {
+    border: solid 3px #99a08e;
     margin: 10px;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     background-color: #f3d7d2;
-}
-.tituloForm{
-    font-size: x-large;
 
-}
-.formulario{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 5px;
+    .tituloForm {
+        font-size: x-large;
 
+        .formulario {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 5px;
+
+        }
+
+    }
 }

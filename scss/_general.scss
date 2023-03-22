@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Explora&family=Sofia+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Space+Grotesk:wght@300&display=swap');
 
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 /* general */
 
-body{
+body {
     background-image: url(../img/imagenfondo.webp);
     margin: 0px;
     padding: 0px;
@@ -18,15 +18,15 @@ body{
 
 /* titulos y subtitulos */
 
-h1{
+h1 {
     @include titulos
 }
 
-h2{
+h2 {
     @include subtitulos
 }
 
-h3{
+h3 {
     font-family: 'Sofia Sans', sans-serif;
     font-size: 30px;
 }

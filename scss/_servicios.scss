@@ -1,17 +1,14 @@
 /* servicios */
 
-.contactame{
+.contactame {
     background-color: #99a08e;
     display: flex;
     flex-direction: row;
-    justify-content: center ;
+    justify-content: center;
+
+    .contact {
+        color: azure;
     }
-
-.contact{
-    color: azure;
 }
 
-.asesorias{
-    width: 50%;
-    margin: 10px;
-}
+
