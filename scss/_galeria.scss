@@ -10,10 +10,14 @@
     font-family: 'Space Grotesk', sans-serif;
     border: solid 2px #99a08e;
     background-color: #99a08e;
+}
+
+.boxIm {
+    display: flex;
+    flex-wrap: wrap;
 
     .imagenes {
         margin: 5px;
         width: 45%;
     }
-
 }

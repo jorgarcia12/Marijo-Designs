@@ -49,9 +49,6 @@ h3 {
   background-color: #F3B3A6;
   width: 100%;
 }
-.navegacion .nav1 .linkNav {
-  display: flex;
-}
 
 footer {
   text-align: left;
@@ -139,7 +136,12 @@ footer #botonArriba {
   border: solid 2px #99a08e;
   background-color: #99a08e;
 }
-.tImagen .imagenes {
+
+.boxIm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxIm .imagenes {
   margin: 5px;
   width: 45%;
 }
@@ -230,11 +232,18 @@ footer #botonArriba {
     font-size: 20px;
     justify-content: center;
   }
-  /* servicios */
   /* galeria */
   .tImagen {
     display: flex;
     justify-content: center;
+  }
+  .boxIm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .boxIm .imagenes {
+    width: 45%;
   }
 }
 
